@@ -12,8 +12,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#import "MaterialContainerScheme.h"
-#import "MaterialTextFields.h"
+#import "../../../schemes/Container/src/MaterialContainerScheme.h"
+#import "../MaterialTextFields.h"
 
 /**
  This category is used to style MDCTextInputControllerUnderline instances to a specific Material

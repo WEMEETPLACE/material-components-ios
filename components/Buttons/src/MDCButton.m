@@ -23,7 +23,7 @@
 #import "MaterialShapes.h"
 #import "MaterialTypography.h"
 #import "MaterialMath.h"
-#import <MDFTextAccessibility/MDFTextAccessibility.h>
+#import "MDFTextAccessibility.h"
 
 // TODO(ajsecord): Animate title color when animating between enabled/disabled states.
 // Non-trivial: http://corecocoa.wordpress.com/2011/10/04/animatable-text-color-of-uilabel/

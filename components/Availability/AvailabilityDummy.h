@@ -1,0 +1,3 @@
+@interface AvailabilityDummy
+
+@end

@@ -15,7 +15,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#import "MDCFloatingButton.h"
+#import "../MDCFloatingButton.h"
 
 @class MDCFloatingButtonModeAnimator;
 

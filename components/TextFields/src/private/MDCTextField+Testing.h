@@ -14,7 +14,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "MDCTextField.h"
+#import "../MDCTextField.h"
 
 /**
   Exposes parts of MDCTextField for testing.

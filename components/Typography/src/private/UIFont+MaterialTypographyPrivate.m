@@ -14,7 +14,7 @@
 
 #import "UIFont+MaterialTypographyPrivate.h"
 
-#import "UIFont+MaterialScalable.h"
+#import "../UIFont+MaterialScalable.h"
 
 @implementation UIFont (MaterialTypographyPrivate)
 

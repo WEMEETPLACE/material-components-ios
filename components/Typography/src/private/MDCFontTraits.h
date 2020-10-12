@@ -14,7 +14,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "MDCFontTextStyle.h"
+#import "../MDCFontTextStyle.h"
 
 /**
  Provides a means of storing defining font metrics based on size categories.
