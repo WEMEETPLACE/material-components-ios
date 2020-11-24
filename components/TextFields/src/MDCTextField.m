@@ -199,7 +199,6 @@ static const CGFloat MDCTextInputTextRectYCorrection = 1;
 
 - (UIBezierPath *)defaultBorderPath {
   CGRect borderBound = self.bounds;
-  borderBound.size.height = CGRectGetMaxY(self.underline.frame);
   return [UIBezierPath
       bezierPathWithRoundedRect:borderBound
               byRoundingCorners:UIRectCornerTopLeft | UIRectCornerTopRight
@@ -575,16 +574,6 @@ static const CGFloat MDCTextInputTextRectYCorrection = 1;
       }
     }
   }
-
-  // UITextFields have a centerY based layout. And you can change EITHER the height or the Y. Not
-  // both. Don't know why. So, we have to leave the text rect as big as the bounds and move it to a
-  // Y that works.
-  CGFloat actualY =
-      (CGRectGetHeight(bounds) / 2) - rint(MAX(self.font.lineHeight,
-                                               self.placeholderLabel.font.lineHeight) /
-                                           2);  // Text field or placeholder
-  actualY = textInsets.top - actualY + MDCTextInputTextRectYCorrection;
-  textRect.origin.y = actualY;
 
   if (self.mdf_effectiveUserInterfaceLayoutDirection == UIUserInterfaceLayoutDirectionRightToLeft) {
     // Now that the text field is laid out as if it were LTR, we can flip it if necessary.

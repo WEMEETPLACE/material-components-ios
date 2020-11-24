@@ -633,12 +633,7 @@ static UITextFieldViewMode _underlineViewModeDefault = UITextFieldViewModeWhileE
 // that. It calculates the amount of space between the alignmentRect's sides and the actual shrunken
 // placeholder label.
 - (UIOffset)floatingPlaceholderOffset {
-  CGFloat vertical = MDCTextInputControllerBaseDefaultPadding;
-
-  // Offsets needed due to transform working on normal (0.5,0.5) anchor point.
-  // Why no anchor point of (0,0)? Because autolayout doesn't play well with anchor points.
-  vertical -= self.textInput.placeholderLabel.font.lineHeight *
-              (1 - (CGFloat)self.floatingPlaceholderScale.floatValue) * (CGFloat)0.5;
+  CGFloat vertical = self.textInput.placeholderLabel.font.lineHeight * (CGFloat)-0.5;
 
   // Remember, the insets are always in LTR. It's automatically flipped when used in RTL.
   // See MDCTextInputController.h.

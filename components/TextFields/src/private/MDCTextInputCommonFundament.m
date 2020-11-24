@@ -582,7 +582,7 @@ static inline UIColor *MDCTextInputUnderlineColor() {
   }
 
   CGFloat scale = UIScreen.mainScreen.scale;
-  CGFloat centerYConstant = insets.top + (ceil(self.textInput.font.lineHeight * scale) / scale) / 2;
+  CGFloat centerYConstant = self.textInput.bounds.size.height / 2;
   if (self.clearButtonCenterY.constant != centerYConstant) {
     self.clearButtonCenterY.constant = centerYConstant;
     shouldInvalidateSize = YES;
