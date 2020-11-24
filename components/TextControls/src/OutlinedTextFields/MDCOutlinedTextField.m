@@ -16,8 +16,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import "MaterialTextControls+BaseTextFields.h"
-#import "MaterialTextControlsPrivate+OutlinedStyle.h"
+#import "../BaseTextFields/MaterialTextControls+BaseTextFields.h"
+#import "../../../private/TextControlsPrivate/src/OutlinedStyle/MaterialTextControlsPrivate+OutlinedStyle.h"
 
 @interface MDCOutlinedTextField (Private) <MDCTextControl>
 @end

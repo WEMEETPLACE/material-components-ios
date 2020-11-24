@@ -15,14 +15,14 @@
 #import "MDCBaseTextArea.h"
 
 #import <CoreGraphics/CoreGraphics.h>
-#import <MDFInternationalization/MDFInternationalization.h>
+#import "MDFInternationalization.h"
 #import <QuartzCore/QuartzCore.h>
 
 #import "private/MDCBaseTextAreaLayout.h"
 #import "private/MDCBaseTextAreaTextView.h"
 #import "MDCBaseTextAreaDelegate.h"
-#import "MaterialTextControlsPrivate+BaseStyle.h"
-#import "MaterialTextControlsPrivate+Shared.h"
+#import "../../../private/TextControlsPrivate/src/BaseStyle/MaterialTextControlsPrivate+BaseStyle.h"
+#import "../../../private/TextControlsPrivate/src/Shared/MaterialTextControlsPrivate+Shared.h"
 
 static char *const kKVOContextMDCBaseTextArea = "kKVOContextMDCBaseTextArea";
 

@@ -15,7 +15,7 @@
 #import <UIKit/UIKit.h>
 
 #import "MaterialContainerScheme.h"
-#import "MaterialTextControls+FilledTextFields.h"
+#import "../FilledTextFields/MaterialTextControls+FilledTextFields.h"
 
 /**
  This category is used to style MDCFilledTextField instances with an MDCContainerScheme.

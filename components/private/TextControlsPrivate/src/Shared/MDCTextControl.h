@@ -15,8 +15,8 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#import "MDCTextControlLabelBehavior.h"
-#import "MDCTextControlState.h"
+#import "../../../../TextControls/src/Enums/MDCTextControlLabelBehavior.h"
+#import "../../../../TextControls/src/Enums/MDCTextControlState.h"
 #import "MDCTextControlAssistiveLabelDrawPriority.h"
 #import "MDCTextControlColorViewModel.h"
 #import "MDCTextControlHorizontalPositioningReference.h"

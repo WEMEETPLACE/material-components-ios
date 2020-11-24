@@ -14,9 +14,9 @@
 
 #import "MDCFilledTextArea.h"
 
-#import "MDCBaseTextArea.h"
-#import "MaterialTextControlsPrivate+FilledStyle.h"
-#import "MaterialTextControlsPrivate+Shared.h"
+#import "../BaseTextAreas/MDCBaseTextArea.h"
+#import "../../../private/TextControlsPrivate/src/FilledStyle/MaterialTextControlsPrivate+FilledStyle.h"
+#import "../../../private/TextControlsPrivate/src/Shared/MaterialTextControlsPrivate+Shared.h"
 
 @interface MDCFilledTextArea (Private) <MDCTextControl>
 @end

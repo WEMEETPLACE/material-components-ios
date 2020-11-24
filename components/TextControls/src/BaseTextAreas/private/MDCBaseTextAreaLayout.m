@@ -14,11 +14,11 @@
 
 #import "MDCBaseTextAreaLayout.h"
 
-#import "MDCTextControlAssistiveLabelViewLayout.h"
-#import "MDCTextControlLabelPosition.h"
-#import "MDCTextControlVerticalPositioningReference.h"
+#import "../../../private/TextControlsPrivate/src/Shared/MDCTextControlAssistiveLabelViewLayout.h"
+#import "../../../private/TextControlsPrivate/src/Shared/MDCTextControlLabelPosition.h"
+#import "../../../private/TextControlsPrivate/src/Shared/MDCTextControlVerticalPositioningReference.h"
 
-#import <MDFInternationalization/MDFInternationalization.h>
+#import "MDFInternationalization.h"
 
 static const CGFloat kGradientBlurLength = (CGFloat)4.0;
 

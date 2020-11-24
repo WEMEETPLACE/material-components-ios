@@ -14,7 +14,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "MaterialTextControls+BaseTextFields.h"
+#import "../BaseTextFields/MaterialTextControls+BaseTextFields.h"
 
 /**
  An implementation of a Material outlined text field.

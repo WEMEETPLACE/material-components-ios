@@ -14,7 +14,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "MaterialTextControls+UnderlinedTextFields.h"
+#import "../UnderlinedTextFields/MaterialTextControls+UnderlinedTextFields.h"
 #import "MaterialContainerScheme.h"
 
 /**

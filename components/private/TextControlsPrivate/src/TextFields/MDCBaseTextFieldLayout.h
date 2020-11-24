@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#import "MaterialTextControlsPrivate+Shared.h"
+#import "../../../private/TextControlsPrivate/src/Shared/MaterialTextControlsPrivate+Shared.h"
 #import "MDCTextControlTextFieldSideViewAlignment.h"
 
 @interface MDCBaseTextFieldLayout : NSObject

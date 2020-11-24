@@ -14,8 +14,8 @@
 
 #import <UIKit/UIKit.h>
 
-#import "MDCTextControl.h"
-#import "MDCTextControlAssistiveLabelView.h"
+#import "../../../../private/TextControlsPrivate/src/Shared/MDCTextControl.h"
+#import "../../../../private/TextControlsPrivate/src/Shared/MDCTextControlAssistiveLabelView.h"
 
 @interface MDCBaseTextAreaLayout : NSObject
 

@@ -14,9 +14,9 @@
 
 #import "MDCOutlinedTextArea.h"
 
-#import "MDCBaseTextArea.h"
-#import "MaterialTextControlsPrivate+OutlinedStyle.h"
-#import "MaterialTextControlsPrivate+Shared.h"
+#import "../BaseTextAreas/MDCBaseTextArea.h"
+#import "../../../private/TextControlsPrivate/src/OutlinedStyle/MaterialTextControlsPrivate+OutlinedStyle.h"
+#import "../../../private/TextControlsPrivate/src/Shared/MaterialTextControlsPrivate+Shared.h"
 
 @interface MDCOutlinedTextArea (Private) <MDCTextControl>
 @end

@@ -14,7 +14,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "MDCOutlinedTextArea.h"
+#import "../OutlinedTextAreas/MDCOutlinedTextArea.h"
 #import "MaterialContainerScheme.h"
 
 /**

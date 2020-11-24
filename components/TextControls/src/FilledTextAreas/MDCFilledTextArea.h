@@ -14,7 +14,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "MDCBaseTextArea.h"
+#import "../BaseTextAreas/MDCBaseTextArea.h"
 
 /**
  An implementation of a Material filled text area.

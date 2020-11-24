@@ -14,7 +14,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "MDCTextControl.h"
+#import "../../../private/TextControlsPrivate/src/Shared/MDCTextControl.h"
 
 /**
 This style object is used by MDCTextControls adopting the Material Underlined style.

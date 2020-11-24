@@ -14,8 +14,8 @@
 
 #import <UIKit/UIKit.h>
 
-#import "MDCTextControl.h"
-#import "MDCTextControlStyleUnderlined.h"
+#import "../../../private/TextControlsPrivate/src/Shared/MDCTextControl.h"
+#import "../../../private/TextControlsPrivate/src/UnderlinedStyle/MDCTextControlStyleUnderlined.h"
 
 /**
 This style object is used by MDCTextControls adopting the Material Filled style.

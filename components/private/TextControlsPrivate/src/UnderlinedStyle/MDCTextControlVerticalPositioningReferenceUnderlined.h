@@ -15,7 +15,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#import "MDCTextControlVerticalPositioningReference.h"
+#import "../../../private/TextControlsPrivate/src/Shared/MDCTextControlVerticalPositioningReference.h"
 
 @interface MDCTextControlVerticalPositioningReferenceUnderlined
     : NSObject <MDCTextControlVerticalPositioningReference>

@@ -16,12 +16,12 @@
 
 #import <Foundation/Foundation.h>
 
-#import <MDFInternationalization/MDFInternationalization.h>
+#import "MDFInternationalization.h"
 
 #import "MDCBaseTextFieldDelegate.h"
-#import "MaterialTextControlsPrivate+BaseStyle.h"
-#import "MaterialTextControlsPrivate+Shared.h"
-#import "MaterialTextControlsPrivate+TextFields.h"
+#import "../../../private/TextControlsPrivate/src/BaseStyle/MaterialTextControlsPrivate+BaseStyle.h"
+#import "../../../private/TextControlsPrivate/src/Shared/MaterialTextControlsPrivate+Shared.h"
+#import "../../../private/TextControlsPrivate/src/TextFields/MaterialTextControlsPrivate+TextFields.h"
 
 static char *const kKVOContextMDCBaseTextField = "kKVOContextMDCBaseTextField";
 

@@ -14,7 +14,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "MaterialTextControls+Enums.h"
+#import "../Enums/MaterialTextControls+Enums.h"
 
 @protocol MDCBaseTextFieldDelegate;
 

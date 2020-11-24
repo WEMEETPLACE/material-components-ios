@@ -13,7 +13,7 @@
 // limitations under the License.
 
 #import "MDCBaseTextAreaTextView.h"
-#import "MDCTextControl.h"
+#import "../../../../private/TextControlsPrivate/src/Shared/MDCTextControl.h"
 
 @implementation MDCBaseTextAreaTextView
 

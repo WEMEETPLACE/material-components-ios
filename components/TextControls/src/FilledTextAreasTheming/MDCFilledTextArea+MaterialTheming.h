@@ -14,7 +14,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "MDCFilledTextArea.h"
+#import "../FilledTextAreas/MDCFilledTextArea.h"
 #import "MaterialContainerScheme.h"
 
 /**

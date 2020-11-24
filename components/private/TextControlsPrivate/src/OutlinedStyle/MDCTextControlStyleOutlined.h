@@ -15,7 +15,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#import "MDCTextControl.h"
+#import "../../../private/TextControlsPrivate/src/Shared/MDCTextControl.h"
 
 // TODO: When the MDCBaseTextField subclass that makes use of this style (and the path drawing logic
 // inside it) lands there should be snapshot tests for it.

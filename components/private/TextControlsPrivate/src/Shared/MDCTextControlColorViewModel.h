@@ -15,7 +15,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#import "MDCTextControlState.h"
+#import "../../../../TextControls/src/Enums/MDCTextControlState.h"
 
 /**
  This object represents a group of colors that are applied on a state by state basis to

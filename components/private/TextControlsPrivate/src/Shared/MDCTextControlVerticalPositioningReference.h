@@ -15,7 +15,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#import "MDCTextControlLabelBehavior.h"
+#import "../../../../TextControls/src/Enums/MDCTextControlLabelBehavior.h"
 #import "MDCTextControlLabelPosition.h"
 
 /**

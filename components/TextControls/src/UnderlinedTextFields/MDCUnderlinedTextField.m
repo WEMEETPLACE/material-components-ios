@@ -16,9 +16,9 @@
 
 #import <Foundation/Foundation.h>
 
-#import "MaterialTextControlsPrivate+Shared.h"
-#import "MaterialTextControlsPrivate+TextFields.h"
-#import "MaterialTextControlsPrivate+UnderlinedStyle.h"
+#import "../../../private/TextControlsPrivate/src/Shared/MaterialTextControlsPrivate+Shared.h"
+#import "../../../private/TextControlsPrivate/src/TextFields/MaterialTextControlsPrivate+TextFields.h"
+#import "../../../private/TextControlsPrivate/src/UnderlinedStyle/MaterialTextControlsPrivate+UnderlinedStyle.h"
 
 @interface MDCUnderlinedTextField (Private) <MDCTextControl>
 @end

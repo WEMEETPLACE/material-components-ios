@@ -15,8 +15,8 @@
 #import <UIKit/UIKit.h>
 
 #import "MDCBaseTextAreaDelegate.h"
-#import "MDCTextControlLabelBehavior.h"
-#import "MDCTextControlState.h"
+#import "../Enums/MDCTextControlLabelBehavior.h"
+#import "../Enums/MDCTextControlState.h"
 
 /**
  A UIControl subclass that leverages UITextView to provide multi-line text input

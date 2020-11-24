@@ -8,7 +8,13 @@ let package = Package(
     products: [
         .library(
             name: "MaterialComponents",
-            targets: ["MaterialTextFields", "MaterialButtons", "MaterialShadowElevations"])
+            targets: [
+                "MaterialTextFields",
+                "MaterialButtons",
+                "MaterialShadowElevations",
+                "MaterialTextControls",
+            ]
+        )
     ],
     dependencies: [
         .package(name: "MDFTextAccessibility", url: "https://github.com/star2star/material-text-accessibility-ios", .branch("2.0.0-spm-beta")),
@@ -297,6 +303,20 @@ let package = Package(
                 "styling",
                 "README.md",
                 "src/MaterialTextFields.bundle"
+            ]
+        ),
+        
+        .target(
+            name: "MaterialTextControls",
+            dependencies: [
+                "MDFInternationalization",
+            ],
+            path: "components/TextControls/",
+            exclude: [
+                "tests",
+                "docs",
+                "examples",
+                "README.md",
             ]
         )
     ]

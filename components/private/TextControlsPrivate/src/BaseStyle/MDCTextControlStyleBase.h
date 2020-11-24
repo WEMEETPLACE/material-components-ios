@@ -15,7 +15,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#import "MDCTextControl.h"
+#import "../Shared/MDCTextControl.h"
 
 /**
  A base implementation of MDCTextControlStyle. This is only used for base text controls, i.e.
