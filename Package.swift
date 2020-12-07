@@ -8,13 +8,40 @@ let package = Package(
     products: [
         .library(
             name: "MaterialComponents",
-            targets: ["MaterialTextFields", "MaterialButtons", "MaterialShadowElevations"])
+            targets: [
+                "MaterialTextFields",
+                "MaterialButtons",
+                "MaterialShadowElevations",
+                "MaterialBottomNavigation"
+            ]
+        )
     ],
     dependencies: [
         .package(name: "MDFTextAccessibility", url: "https://github.com/star2star/material-text-accessibility-ios", .branch("2.0.0-spm-beta")),
         .package(name: "MDFInternationalization", url: "https://github.com/star2star/material-internationalization-ios", .branch("2.0.1-spm-beta"))
     ],
     targets: [
+        
+        .target(
+            name: "MaterialBottomNavigation",
+            dependencies: [
+                .target(name: "MaterialInk"),
+                .target(name: "MaterialRipple"),
+                .target(name: "MaterialPalettes"),
+                .target(name: "MaterialElevation"),
+                .target(name: "MaterialShadowElevations"),
+                .target(name: "MaterialContainer"),
+                "MDFInternationalization",
+            ],
+            path: "components/BottomNavigation/",
+            exclude: [
+                "docs",
+                "examples",
+                "tests",
+                "README.md"
+            ]
+        ),
+        
         .target(
             name: "MaterialAvailability",
             dependencies: [],
@@ -298,6 +325,8 @@ let package = Package(
                 "README.md",
                 "src/MaterialTextFields.bundle"
             ]
-        )
+        ),
+        
+        
     ]
 )

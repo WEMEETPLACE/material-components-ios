@@ -1,0 +1,3 @@
+module MaterialBottomNavigation {
+  umbrella header "../src/MaterialBottomNavigation.h"
+}

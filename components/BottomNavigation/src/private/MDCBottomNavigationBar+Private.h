@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#import "MDCBottomNavigationBar.h"
+#import "../MDCBottomNavigationBar.h"
 
 #ifdef __IPHONE_13_4
 @interface MDCBottomNavigationBar (PointerInteraction) <UIPointerInteractionDelegate>
