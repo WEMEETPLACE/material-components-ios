@@ -13,7 +13,7 @@
 // limitations under the License.
 
 #import "MaterialColorScheme.h"
-#import "MaterialNavigationBar.h"
+#import "../MaterialNavigationBar.h"
 
 #import <Foundation/Foundation.h>
 

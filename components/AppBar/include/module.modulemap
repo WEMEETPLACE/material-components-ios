@@ -1,0 +1,3 @@
+module MaterialAppBar {
+  umbrella header "../src/MaterialAppBar.h"
+}

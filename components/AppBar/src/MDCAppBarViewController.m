@@ -24,10 +24,10 @@
 #import "MaterialShadowLayer.h"
 #import "MaterialTypography.h"
 #import "MaterialApplication.h"
-#import "MaterialIcons+ic_arrow_back.h"
+#import "MaterialIcons.h"
 #import "MaterialUIMetrics.h"
-#import <MDFInternationalization/MDFInternationalization.h>
-#import <MDFTextAccessibility/MDFTextAccessibility.h>
+#import "MDFInternationalization.h"
+#import "MDFTextAccessibility.h"
 
 static NSString *const kBarStackKey = @"barStack";
 

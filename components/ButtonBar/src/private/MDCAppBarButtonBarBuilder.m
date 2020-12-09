@@ -14,14 +14,15 @@
 
 #import "MDCAppBarButtonBarBuilder.h"
 
-#import <MDFInternationalization/MDFInternationalization.h>
+#import "MDFInternationalization.h"
 #import <objc/runtime.h>
 
 #import "MaterialAvailability.h"
-#import "MDCButtonBar.h"
-#import "MDCButtonBarButton.h"
+#import "../MDCButtonBar.h"
+#import "../MDCButtonBarButton.h"
 #import "MDCButtonBar+Private.h"
-#import "MaterialButtons.h"
+#import "Buttons.h"
+#import "MaterialInk.h"
 
 // Additional insets for the left-most or right-most items.
 static const CGFloat kEdgeButtonAdditionalMargin = 4;

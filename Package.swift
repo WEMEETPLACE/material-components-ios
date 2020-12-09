@@ -12,7 +12,8 @@ let package = Package(
                 "MaterialTextFields",
                 "MaterialButtons",
                 "MaterialShadowElevations",
-                "MaterialBottomNavigation"
+                "MaterialBottomNavigation",
+                "MaterialAppBar",
             ]
         )
     ],
@@ -21,6 +22,150 @@ let package = Package(
         .package(name: "MDFInternationalization", url: "https://github.com/star2star/material-internationalization-ios", .branch("2.0.1-spm-beta"))
     ],
     targets: [
+        
+        .target(
+            name: "MaterialAppBar",
+            dependencies: [
+                .target(name: "MaterialContainer"),
+                .target(name: "MaterialFlexibleHeader"),
+                .target(name: "MaterialHeaderStackView"),
+                .target(name: "MaterialNavigationBar"),
+                .target(name: "MaterialIcons"),
+                "MDFInternationalization",
+                "MDFTextAccessibility",
+            ],
+            path: "components/AppBar/",
+            exclude: [
+                "docs",
+                "examples",
+                "tests",
+                "README.md"
+            ],
+            resources: [
+                .copy("src/MaterialAppBar.bundle")
+            ]
+        ),
+        
+        .target(
+            name: "MaterialIcons",
+            dependencies: [
+            ],
+            path: "components/private/Icons/",
+            exclude: [
+                "tests",
+                "README.md",
+                "icons/ic_arrow_back/src/Info.plist",
+                "icons/ic_arrow_back/src/Info.plist",
+                "icons/ic_check/src/Info.plist",
+                "icons/ic_check_circle/src/Info.plist",
+                "icons/ic_chevron_right/src/Info.plist",
+                "icons/ic_color_lens/src/Info.plist",
+                "icons/ic_feedback/src/Info.plist",
+                "icons/ic_help_outline/src/Info.plist",
+                "icons/ic_info/src/Info.plist",
+                "icons/ic_more_horiz/src/Info.plist",
+                "icons/ic_radio_button_unchecked/src/Info.plist",
+                "icons/ic_reorder/src/Info.plist",
+                "icons/ic_settings/src/Info.plist",
+            ],
+            resources: [
+                .copy("icons/ic_arrow_back/src/MaterialIcons_ic_arrow_back.xcassets"),
+                .copy("icons/ic_check/src/MaterialIcons_ic_check.xcassets"),
+                .copy("icons/ic_check_circle/src/MaterialIcons_ic_check_circle.xcassets"),
+                .copy("icons/ic_chevron_right/src/MaterialIcons_ic_chevron_right.xcassets"),
+                .copy("icons/ic_color_lens/src/MaterialIcons_ic_color_lens.xcassets"),
+                .copy("icons/ic_feedback/src/MaterialIcons_ic_feedback.xcassets"),
+                .copy("icons/ic_help_outline/src/MaterialIcons_ic_help_outline.xcassets"),
+                .copy("icons/ic_info/src/MaterialIcons_ic_info.xcassets"),
+                .copy("icons/ic_more_horiz/src/MaterialIcons_ic_more_horiz.xcassets"),
+                .copy("icons/ic_radio_button_unchecked/src/MaterialIcons_ic_radio_button_unchecked.xcassets"),
+                .copy("icons/ic_reorder/src/MaterialIcons_ic_reorder.xcassets"),
+                .copy("icons/ic_settings/src/MaterialIcons_ic_settings.xcassets"),
+            ],
+            publicHeadersPath:"src"
+        ),
+        
+        .target(
+            name: "MaterialNavigationBar",
+            dependencies: [
+                .target(name: "MaterialElevation"),
+                .target(name: "MaterialTypographyScheme"),
+                .target(name: "MaterialColorScheme"),
+                "MDFInternationalization",
+                "MDFTextAccessibility",
+                .target(name: "MaterialButtonBar")
+            ],
+            path: "components/NavigationBar/",
+            exclude: [
+                "docs",
+                "examples",
+                "tests",
+                "README.md"
+            ],
+            publicHeadersPath:"src"
+        ),
+        
+        .target(
+            name: "MaterialButtonBar",
+            dependencies: [
+                .target(name: "MaterialAvailability"),
+                "MDFInternationalization",
+                .target(name: "MaterialButtons"),
+                .target(name: "MaterialInk")
+            ],
+            path: "components/ButtonBar/",
+            exclude: [
+                "docs",
+                "examples",
+                "tests",
+                "README.md"
+            ],
+            publicHeadersPath:"src"
+        ),
+        
+        .target(
+            name: "MaterialHeaderStackView",
+            dependencies: [
+            ],
+            path: "components/HeaderStackView/",
+            exclude: [
+                "docs",
+                "tests",
+                "README.md"
+            ],
+            publicHeadersPath:"src"
+        ),
+        
+        .target(
+            name: "MaterialFlexibleHeader",
+            dependencies: [
+                .target(name: "MaterialElevation"),
+                .target(name: "MaterialApplication"),
+                .target(name: "MaterialShadowElevations"),
+                .target(name: "MaterialUIMetrics"),
+                "MDFTextAccessibility"
+            ],
+            path: "components/FlexibleHeader/",
+            exclude: [
+                "docs",
+                "examples",
+                "tests",
+                "README.md"
+            ],
+            publicHeadersPath:"src"
+        ),
+        
+        .target(
+            name: "MaterialUIMetrics",
+            dependencies: [
+                .target(name: "MaterialApplication")
+            ],
+            path: "components/private/UIMetrics/",
+            exclude: [
+                "tests"
+            ],
+            publicHeadersPath:"src"
+        ),
         
         .target(
             name: "MaterialBottomNavigation",

@@ -14,7 +14,7 @@
 
 #import "MDCAppBarColorThemer.h"
 
-#import "MaterialNavigationBar+ColorThemer.h"
+#import "../../../NavigationBar/src/ColorThemer/MaterialNavigationBar+ColorThemer.h"
 
 @implementation MDCAppBarColorThemer
 

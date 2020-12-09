@@ -14,3 +14,16 @@
 
 #import "MDCIcons+BundleLoader.h"
 #import "MDCIcons.h"
+
+#import "../icons/ic_arrow_back/src/MaterialIcons+ic_arrow_back.h"
+#import "../icons/ic_check/src/MaterialIcons+ic_check.h"
+#import "../icons/ic_check_circle/src/MaterialIcons+ic_check_circle.h"
+#import "../icons/ic_chevron_right/src/MaterialIcons+ic_chevron_right.h"
+#import "../icons/ic_color_lens/src/MaterialIcons+ic_color_lens.h"
+#import "../icons/ic_feedback/src/MaterialIcons+ic_feedback.h"
+#import "../icons/ic_help_outline/src/MaterialIcons+ic_help_outline.h"
+#import "../icons/ic_info/src/MaterialIcons+ic_info.h"
+#import "../icons/ic_more_horiz/src/MaterialIcons+ic_more_horiz.h"
+#import "../icons/ic_radio_button_unchecked/src/MaterialIcons+ic_radio_button_unchecked.h"
+#import "../icons/ic_reorder/src/MaterialIcons+ic_reorder.h"
+#import "../icons/ic_settings/src/MaterialIcons+ic_settings.h"
