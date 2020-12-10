@@ -14,7 +14,7 @@
 
 #import "MDCBottomDrawerContainerViewController.h"
 
-#import "MDCBottomDrawerHeader.h"
+#import "../MDCBottomDrawerHeader.h"
 #import "MDCBottomDrawerContainerViewControllerDelegate.h"
 #import "MDCBottomDrawerHeaderMask.h"
 #import "MDCBottomDrawerShadowedView.h"

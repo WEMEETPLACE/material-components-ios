@@ -1,0 +1,3 @@
+module MaterialNavigationDrawer {
+  umbrella header "../src/MaterialNavigationDrawer.h"
+}

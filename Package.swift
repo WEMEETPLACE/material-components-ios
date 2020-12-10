@@ -14,6 +14,7 @@ let package = Package(
                 "MaterialShadowElevations",
                 "MaterialBottomNavigation",
                 "MaterialAppBar",
+                "MaterialNavigationDrawer",
             ]
         )
     ],
@@ -22,6 +23,28 @@ let package = Package(
         .package(name: "MDFInternationalization", url: "https://github.com/star2star/material-internationalization-ios", .branch("2.0.1-spm-beta"))
     ],
     targets: [
+        
+        .target(
+            name: "MaterialNavigationDrawer",
+            dependencies: [
+                .target(name: "MaterialColorScheme"),
+                .target(name: "MaterialElevation"),
+                .target(name: "MaterialShadowElevations"),
+                .target(name: "MaterialContainer"),
+                .target(name: "MaterialUIMetrics"),
+                .target(name: "MaterialPalettes"),
+            ],
+            path: "components/NavigationDrawer/",
+            exclude: [
+                "docs",
+                "examples",
+                "tests",
+                "README.md"
+            ],
+            resources: [
+                .copy("src/MaterialAppBar.bundle")
+            ]
+        ),
         
         .target(
             name: "MaterialAppBar",

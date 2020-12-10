@@ -13,7 +13,7 @@
 // limitations under the License.
 
 #import <UIKit/UIKit.h>
-#import "MDCBottomDrawerState.h"
+#import "../MDCBottomDrawerState.h"
 // TODO(b/151929968): Delete import of delegate headers when client code has been migrated to no
 // longer import delegates as transitive dependencies.
 #import "MDCBottomDrawerContainerViewControllerDelegate.h"

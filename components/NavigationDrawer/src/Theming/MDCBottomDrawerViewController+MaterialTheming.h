@@ -14,7 +14,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "MaterialNavigationDrawer.h"
+#import "../MaterialNavigationDrawer.h"
 #import "MaterialContainerScheme.h"
 
 @interface MDCBottomDrawerViewController (MaterialTheming)
