@@ -14,7 +14,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "MaterialBottomSheet.h"
+#import "../MaterialBottomSheet.h"
 #import "MaterialShapeLibrary.h"
 #import "MaterialShapeScheme.h"
 #import "MaterialShapes.h"

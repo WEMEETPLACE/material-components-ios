@@ -18,7 +18,7 @@
 
 #import "private/MDCSheetContainerView.h"
 #import "MDCBottomSheetPresentationControllerDelegate.h"
-#import "MDCSheetContainerViewDelegate.h"
+#import "private/MDCSheetContainerViewDelegate.h"
 #import "MaterialMath.h"
 
 static UIScrollView *MDCBottomSheetGetPrimaryScrollView(UIViewController *viewController) {

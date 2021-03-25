@@ -15,6 +15,7 @@ let package = Package(
                 "MaterialBottomNavigation",
                 "MaterialAppBar",
                 "MaterialNavigationDrawer",
+                "MaterialBottomSheet",
             ]
         )
     ],
@@ -23,7 +24,24 @@ let package = Package(
         .package(name: "MDFInternationalization", url: "https://github.com/star2star/material-internationalization-ios", .branch("2.0.1-spm-beta"))
     ],
     targets: [
-        
+        .target(
+            name: "MaterialBottomSheet",
+            dependencies: [
+                .target(name: "MaterialElevation"),
+                .target(name: "MaterialShadowElevations"),
+                .target(name: "MaterialShapes"),
+                .target(name: "MaterialShapeLibrary"),
+                .target(name: "MaterialKeyboardWatcher"),
+                .target(name: "MaterialShape"),
+            ],
+            path: "components/BottomSheet/",
+            exclude: [
+                "docs",
+                "examples",
+                "tests",
+                "README.md"
+            ]
+        ),
         .target(
             name: "MaterialNavigationDrawer",
             dependencies: [
@@ -246,6 +264,18 @@ let package = Package(
             name: "MaterialMath",
             dependencies: [],
             path: "components/private/Math/",
+            exclude: [
+                "tests"
+            ],
+            publicHeadersPath:"src"
+        ),
+        
+        .target(
+            name: "MaterialKeyboardWatcher",
+            dependencies: [
+                .target(name: "MaterialApplication"),
+            ],
+            path: "components/private/KeyboardWatcher/",
             exclude: [
                 "tests"
             ],

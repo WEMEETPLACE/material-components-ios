@@ -1,0 +1,3 @@
+module MaterialBottomSheet {
+  umbrella header "../src/MaterialBottomSheet.h"
+}
