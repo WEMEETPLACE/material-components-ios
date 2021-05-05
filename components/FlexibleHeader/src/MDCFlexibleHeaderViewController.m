@@ -23,10 +23,10 @@
 #import "MDCFlexibleHeaderView.h"
 #import "MDCFlexibleHeaderViewDelegate.h"
 #import "MDCFlexibleHeaderViewLayoutDelegate.h"
-#import "MaterialFlexibleHeader+ShiftBehaviorEnabledWithStatusBar.h"
+#import "ShiftBehaviorEnabledWithStatusBar/MaterialFlexibleHeader+ShiftBehaviorEnabledWithStatusBar.h"
 #import "MaterialApplication.h"
 #import "MaterialUIMetrics.h"
-#import <MDFTextAccessibility/MDFTextAccessibility.h>
+#import "MDFTextAccessibility.h"
 
 @interface UIView ()
 - (UIEdgeInsets)safeAreaInsets;  // For pre-iOS 11 SDK targets.

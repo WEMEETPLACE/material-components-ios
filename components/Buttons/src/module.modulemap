@@ -1,0 +1,39 @@
+module MaterialButtons {
+	umbrella header "MaterialButtons.h"
+	export *
+    
+    explicit module Private {
+        umbrella "private"
+        export *
+    }
+    
+    explicit module Theming {
+        umbrella header "Theming/MaterialButtons+Theming.h"
+        export *
+    }
+    
+    explicit module ButtonThemer {
+        umbrella header "ButtonThemer/MaterialButtons+ButtonThemer.h"
+        export *
+    }
+    
+    explicit module ColorThemer {
+        umbrella header "ColorThemer/MaterialButtons+ColorThemer.h"
+        export *
+    }
+    
+    explicit module ShapeThemer {
+        umbrella header "ShapeThemer/MaterialButtons+ShapeThemer.h"
+        export *
+    }
+    
+    explicit module TypographyThemer {
+        umbrella header "TypographyThemer/MaterialButtons+TypographyThemer.h"
+        export *
+    }
+    
+    explicit module PerformantShadowMigration {
+        header "PerformantShadowMigration/MDCButton+ShadowsPrivate.h"
+        export *
+    }
+}

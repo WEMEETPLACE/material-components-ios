@@ -1,0 +1,9 @@
+module MaterialRipple {
+    umbrella header "MaterialRipple.h"
+    export *
+    
+    explicit module Private {
+        umbrella "private"
+        export *
+    }
+}

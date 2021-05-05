@@ -14,11 +14,11 @@
 
 #import "MDCTextInputControllerFilled+MaterialTheming.h"
 
-#import <MaterialComponents/MaterialTextFields+ColorThemer.h>
+#import "ColorThemer/MaterialTextFields+ColorThemer.h"
 #import "MDCTextInputControllerFloatingPlaceholder.h"
 #import "MaterialTextFields.h"
 #import "MaterialContainerScheme.h"
-#import "MaterialTypographyScheme+Scheming.h"
+#import "Scheming/MaterialTypographyScheme+Scheming.h"
 
 @implementation MDCTextInputControllerFilled (MaterialTheming)
 

@@ -17,7 +17,7 @@
 
 #import "MaterialInk.h"
 #import "MaterialRipple.h"
-#import <MDFInternationalization/MDFInternationalization.h>
+#import "MDFInternationalization.h"
 
 #import "MDCBottomNavigationBar.h"
 #import "MDCBottomNavigationItemBadge.h"

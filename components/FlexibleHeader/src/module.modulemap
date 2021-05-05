@@ -1,0 +1,24 @@
+module MaterialFlexibleHeader {
+    umbrella header "MaterialFlexibleHeader.h"
+    export *
+    
+    explicit module Private {
+        umbrella "private"
+        export *
+    }
+    
+    explicit module CanAlwaysExpandToMaximumHeight {
+        umbrella header "CanAlwaysExpandToMaximumHeight/MaterialFlexibleHeader+CanAlwaysExpandToMaximumHeight.h"
+        export *
+    }
+    
+    explicit module ShiftBehavior {
+        umbrella header "ShiftBehavior/MaterialFlexibleHeader+ShiftBehavior.h"
+        export *
+    }
+    
+    explicit module ShiftBehaviorEnabledWithStatusBar {
+        umbrella header "ShiftBehaviorEnabledWithStatusBar/MaterialFlexibleHeader+ShiftBehaviorEnabledWithStatusBar.h"
+        export *
+    }
+}

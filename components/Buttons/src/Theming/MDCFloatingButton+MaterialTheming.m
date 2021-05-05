@@ -22,7 +22,7 @@
 #import "MaterialContainerScheme.h"
 #import "MaterialShapeScheme.h"
 #import "MaterialTypographyScheme.h"
-#import "MaterialTypographyScheme+Scheming.h"
+#import "Scheming/MaterialTypographyScheme+Scheming.h"
 
 static const CGFloat kFloatingButtonBaselineShapePercentageValue = (CGFloat)0.5;
 

@@ -22,7 +22,7 @@
 
 #import "MaterialContainerScheme.h"
 
-#import "MaterialTypographyScheme+Scheming.h"
+#import "Scheming/MaterialTypographyScheme+Scheming.h"
 
 @implementation MDCTextInputControllerUnderline (MaterialTheming)
 

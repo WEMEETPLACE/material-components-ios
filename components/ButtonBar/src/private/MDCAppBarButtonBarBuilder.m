@@ -16,7 +16,7 @@
 
 #import <objc/runtime.h>
 #import "MaterialInk.h"
-#import <MDFInternationalization/MDFInternationalization.h>
+#import "MDFInternationalization.h"
 
 #import "MaterialAvailability.h"
 #import "MDCButtonBar.h"

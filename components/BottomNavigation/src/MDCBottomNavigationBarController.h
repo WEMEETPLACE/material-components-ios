@@ -14,7 +14,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import <MaterialComponents/MaterialBottomNavigation.h>
+#import "MaterialBottomNavigation.h"
 
 @protocol MDCBottomNavigationBarControllerDelegate;
 @protocol MDCBottomNavigationBarDelegate;

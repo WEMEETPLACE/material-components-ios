@@ -15,3 +15,4 @@
 #import "MDCBottomNavigationBar.h"
 #import "MDCBottomNavigationBarControllerDelegate.h"
 #import "MDCBottomNavigationBarDelegate.h"
+#import "MDCBottomNavigationBarController.h"

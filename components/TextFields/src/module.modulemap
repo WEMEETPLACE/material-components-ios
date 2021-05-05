@@ -1,0 +1,19 @@
+module MaterialTextFields {
+    umbrella header "MaterialTextFields.h"
+    export *
+    
+    explicit module Private {
+        umbrella "private"
+        export *
+    }
+    
+    explicit module ColorThemer {
+        umbrella header "ColorThemer/MaterialTextFields+ColorThemer.h"
+        export *
+    }
+    
+    explicit module Theming {
+        umbrella header "Theming/MaterialTextFields+Theming.h"
+        export *
+    }
+}

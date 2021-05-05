@@ -26,7 +26,7 @@
 #import "MaterialShadowLayer.h"
 #import "MaterialIcons+ic_arrow_back.h"
 #import "MaterialUIMetrics.h"
-#import <MDFInternationalization/MDFInternationalization.h>
+#import "MDFInternationalization.h"
 
 static NSString *const kBarStackKey = @"barStack";
 

@@ -16,7 +16,7 @@
 
 #import "MaterialNavigationBar.h"
 
-#import "MaterialTypographyScheme+Scheming.h"
+#import "Scheming/MaterialTypographyScheme+Scheming.h"
 
 @implementation MDCNavigationBarTypographyThemer
 

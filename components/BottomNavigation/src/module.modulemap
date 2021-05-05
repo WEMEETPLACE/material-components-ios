@@ -1,0 +1,19 @@
+module MaterialBottomNavigation {
+    umbrella header "MaterialBottomNavigation.h"
+    export *
+    
+    explicit module Private {
+        umbrella "private"
+        export *
+    }
+    
+    explicit module Theming {
+        umbrella header "Theming/MaterialBottomNavigation+Theming.h"
+        export *
+    }
+    
+    explicit module PerformantShadowMigration {
+        umbrella header "PerformantShadowMigration/MDCBottomNavigationBar+ShadowsPrivate.h"
+        export *
+    }
+}

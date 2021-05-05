@@ -14,8 +14,8 @@
 
 #import "MDCFlexibleHeaderShifter.h"
 #import "MDCFlexibleHeaderView+ShiftBehavior.h"
-#import "MaterialFlexibleHeader+ShiftBehavior.h"
-#import "MaterialFlexibleHeader+ShiftBehaviorEnabledWithStatusBar.h"
+#import "ShiftBehavior/MaterialFlexibleHeader+ShiftBehavior.h"
+#import "ShiftBehaviorEnabledWithStatusBar/MaterialFlexibleHeader+ShiftBehaviorEnabledWithStatusBar.h"
 
 // The suffix for an app extension bundle path.
 static NSString *const kAppExtensionSuffix = @".appex";

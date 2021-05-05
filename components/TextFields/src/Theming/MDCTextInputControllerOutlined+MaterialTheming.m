@@ -22,7 +22,7 @@
 
 #import "MaterialContainerScheme.h"
 
-#import "MaterialTypographyScheme+Scheming.h"
+#import "Scheming/MaterialTypographyScheme+Scheming.h"
 
 static CGFloat const kOutlinedTextFieldActiveAlpha = (CGFloat)0.87;
 static CGFloat const kOutlinedTextFieldOnSurfaceAlpha = (CGFloat)0.6;

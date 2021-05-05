@@ -1,0 +1,14 @@
+module MaterialTypographyScheme {
+    umbrella header "MaterialTypographyScheme.h"
+    export *
+    
+    explicit module BasicFontScheme {
+        umbrella header "BasicFontScheme/MaterialTypographyScheme+BasicFontScheme.h"
+        export *
+    }
+    
+    explicit module Scheming {
+        umbrella header "Scheming/MaterialTypographyScheme+Scheming.h"
+        export *
+    }
+}

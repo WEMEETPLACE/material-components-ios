@@ -20,7 +20,7 @@
 #import "MaterialTypography.h"
 #import "MaterialColorScheme.h"
 #import "MaterialContainerScheme.h"
-#import "MaterialTypographyScheme+Scheming.h"
+#import "Scheming/MaterialTypographyScheme+Scheming.h"
 
 static const CGFloat kChipViewBaselineShapePercentageValue = (CGFloat)0.5;
 

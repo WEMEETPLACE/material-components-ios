@@ -1,0 +1,14 @@
+module MaterialChips {
+	umbrella header "MaterialChips.h"
+	export *
+    
+    explicit module Private {
+        umbrella "private"
+        export *
+    }
+    
+    explicit module Theming {
+        umbrella header "Theming/MaterialChips+Theming.h"
+        export *
+    }
+}

@@ -1,0 +1,9 @@
+module MaterialButtonBar {
+    umbrella header "MaterialButtonBar.h"
+    export *
+    
+    explicit module Private {
+        umbrella "private"
+        export *
+    }
+}

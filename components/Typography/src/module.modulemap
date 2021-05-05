@@ -1,0 +1,9 @@
+module MaterialTypography {
+    umbrella header "MaterialTypography.h"
+    export *
+    
+    explicit module Private {
+        umbrella "private"
+        export *
+    }
+}

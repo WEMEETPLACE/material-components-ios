@@ -1,0 +1,14 @@
+module MaterialBottomSheet {
+    umbrella header "MaterialBottomSheet.h"
+    export *
+    
+    explicit module Private {
+        umbrella "private"
+        export *
+    }
+    
+    explicit module ShapeThemer {
+        umbrella header "ShapeThemer/MaterialBottomSheet+ShapeThemer.h"
+        export *
+    }
+}

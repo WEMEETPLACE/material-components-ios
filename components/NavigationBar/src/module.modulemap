@@ -1,0 +1,14 @@
+module MaterialNavigationBar {
+    umbrella header "MaterialNavigationBar.h"
+    export *
+    
+    explicit module ColorThemer {
+        umbrella header "ColorThemer/MaterialNavigationBar+ColorThemer.h"
+        export *
+    }
+    
+    explicit module TypographyThemer {
+        umbrella header "TypographyThemer/MaterialNavigationBar+TypographyThemer.h"
+        export *
+    }
+}

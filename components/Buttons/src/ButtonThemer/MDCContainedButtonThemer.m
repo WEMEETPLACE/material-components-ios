@@ -15,10 +15,10 @@
 #import "MDCContainedButtonThemer.h"
 
 #import "MDCButtonScheme.h"
-#import "MaterialButtons+ColorThemer.h"
+#import "ColorThemer/MaterialButtons+ColorThemer.h"
 #import "MaterialButtons.h"
-#import "MaterialButtons+ShapeThemer.h"
-#import "MaterialButtons+TypographyThemer.h"
+#import "ShapeThemer/MaterialButtons+ShapeThemer.h"
+#import "TypographyThemer/MaterialButtons+TypographyThemer.h"
 
 @implementation MDCContainedButtonThemer
 

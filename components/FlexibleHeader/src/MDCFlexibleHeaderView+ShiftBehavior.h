@@ -13,7 +13,7 @@
 // limitations under the License.
 
 #import "MDCFlexibleHeaderView.h"
-#import "MaterialFlexibleHeader+ShiftBehavior.h"
+#import "ShiftBehavior/MaterialFlexibleHeader+ShiftBehavior.h"
 
 #pragma mark - Shift behavior-specific APIs
 

@@ -1,0 +1,24 @@
+module MaterialAppBar {
+    umbrella header "MaterialAppBar.h"
+    export *
+    
+    explicit module Private {
+        umbrella "private"
+        export *
+    }
+    
+    explicit module Theming {
+        umbrella header "Theming/MaterialAppBar+Theming.h"
+        export *
+    }
+    
+    explicit module ColorThemer {
+        umbrella header "ColorThemer/MaterialAppBar+ColorThemer.h"
+        export *
+    }
+    
+    explicit module TypographyThemer {
+        umbrella header "TypographyThemer/MaterialAppBar+TypographyThemer.h"
+        export *
+    }
+}

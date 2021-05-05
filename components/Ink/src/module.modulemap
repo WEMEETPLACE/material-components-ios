@@ -1,0 +1,9 @@
+module MaterialInk {
+    umbrella header "MaterialInk.h"
+    export *
+    
+    explicit module Private {
+        umbrella "private"
+        export *
+    }
+}

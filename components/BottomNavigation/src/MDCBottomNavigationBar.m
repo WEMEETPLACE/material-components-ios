@@ -18,7 +18,7 @@
 
 #import "MaterialElevation.h"
 #import "MaterialInk.h"
-#import <MDFInternationalization/MDFInternationalization.h>
+#import "MDFInternationalization.h"
 
 #import "private/MDCBottomNavigationBar+Private.h"
 #import "private/MDCBottomNavigationItemView.h"

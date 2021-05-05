@@ -1,0 +1,19 @@
+module MaterialNavigationDrawer {
+    umbrella header "MaterialNavigationDrawer.h"
+    export *
+    
+    explicit module Private {
+        umbrella "private"
+        export *
+    }
+    
+    explicit module Theming {
+        umbrella header "Theming/MaterialNavigationDrawer+Theming.h"
+        export *
+    }
+    
+    explicit module ColorThemer {
+        umbrella header "ColorThemer/MaterialNavigationDrawer+ColorThemer.h"
+        export *
+    }
+}
