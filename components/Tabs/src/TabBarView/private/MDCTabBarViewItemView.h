@@ -17,7 +17,7 @@
 #import "MDCTabBarViewCustomViewable.h"
 #import "MDCTabBarViewItemViewDelegate.h"
 
-#import <MaterialComponents/MaterialRipple.h>
+#import "MaterialRipple.h"
 
 /** A basic view that displays a title and image for a tab bar item within MDCTabBarView. */
 @interface MDCTabBarViewItemView : UIView <MDCTabBarViewCustomViewable>

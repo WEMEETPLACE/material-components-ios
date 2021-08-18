@@ -34,6 +34,7 @@ let package = Package(
                 "MaterialShadowLayer",
                 "MaterialShapeLibrary",
                 "MaterialShapes",
+                "MaterialTabBarView",
                 "MaterialTextFields",
                 "MaterialTypography"
             ]
@@ -408,7 +409,20 @@ let package = Package(
             path: "components/Shapes/src",
             publicHeadersPath: "."
         ),
-
+        
+        // MARK: - TabBarView
+        .target(
+            name: "MaterialTabBarView",
+            dependencies: [
+                "MaterialAvailability",
+                "MaterialRipple",
+                "MDFInternationalization",
+                "MaterialMath"
+            ],
+            path: "components/Tabs/src/TabBarView",
+            publicHeadersPath: "."
+        ),
+        
         // MARK: - TextFields
         .target(
             name: "MaterialTextFields",

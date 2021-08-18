@@ -28,7 +28,7 @@
 #import <CoreGraphics/CoreGraphics.h>
 #import <QuartzCore/QuartzCore.h>
 #import "MaterialAnimationTiming.h"  // ComponentImport
-#import <MDFInternationalization/MDFInternationalization.h>
+#import "MDFInternationalization.h"
 
 // KVO contexts
 static char *const kKVOContextMDCTabBarView = "kKVOContextMDCTabBarView";
